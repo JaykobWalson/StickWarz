@@ -1,2 +1,2 @@
 # StickWarz
-The repository for the game
+This will be some readme file I will modify.
