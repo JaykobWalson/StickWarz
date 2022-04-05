@@ -1,0 +1,30 @@
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: green;
+text-align: center;
+}
+
+h2{
+font-size: 80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: greenyellow;
+text-align: center;
+}
+
+body{
+background-color: black;
+}
+
+#playButton{
+font-size: 20px;
+text-align: center;
+color: red;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#helpButton{
+font-size: 20px;
+text-align: center;
+color: orange;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
