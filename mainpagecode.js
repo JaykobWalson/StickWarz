@@ -7,6 +7,10 @@ pressPlay.addEventListener("mouseout", function(){
     pressPlay.style.color = "red";
 });
 
+pressPlay.addEventListener("click", function(){
+    window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/cutscene-1.html";
+});
+
 let iNeedHelp = document.getElementById("helpButton");
 
 iNeedHelp.addEventListener("mouseover", function(){

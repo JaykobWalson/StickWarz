@@ -28,3 +28,13 @@ text-align: center;
 color: orange;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#logo1{
+float: left;
+}
+
+#logo2{
+float: right;
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
