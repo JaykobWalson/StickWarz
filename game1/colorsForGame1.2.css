@@ -1,0 +1,61 @@
+body{
+    background-color: skyblue;
+}
+
+#angel{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+
+.ring1{
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+}
+
+.ring2{
+    border: 10px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+   
+}
+
+.ring3{
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 750px;
+    top: 220px;
+}
+
+.ring4{
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 750px;
+    top: 90px;
+}
+
+.ring5{
+    border: 10px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 875px;
+    top: 120px;
+}

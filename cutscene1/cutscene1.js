@@ -17,6 +17,9 @@ angel.addEventListener("animationend", function(){
     }, 8000);
 });
 
+setTimeout(() => {
+    window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/game1/game1.html";
+}, 9000);
 
 
 

@@ -8,7 +8,7 @@ pressPlay.addEventListener("mouseout", function(){
 });
 
 pressPlay.addEventListener("click", function(){
-    window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/cutscene-1.html";
+    window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/cutscene1/cutscene-1.html";
 });
 
 let iNeedHelp = document.getElementById("helpButton");
