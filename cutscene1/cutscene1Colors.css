@@ -15,6 +15,14 @@ body{
 	-moz-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
+    /* animation: fly;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
 
 }
 
@@ -32,7 +40,8 @@ body{
  }
 
  @keyframes fly {
-    0%{top: 150px; left: 60px;}
+    0%{transform: rotate(0deg);top: 150px; left: 60px;}
+    20%{top: 150px; left: 60px;}
     50%{top: 40px; left: 60px}
     100%{top: -20px; left: 60px}
      

@@ -7,19 +7,23 @@ angel.addEventListener("animationend", function(){
     setTimeout(() => {  dialogue.innerHTML = "Chambers: He's gotta be here somewhere..."; 
     }, 4000);
     setTimeout(() => {  dialogue.innerHTML = "Chambers:..."; 
-
     }, 6000);
     setTimeout(() => {  dialogue.innerHTML = "Chambers:......"; 
-
    }, 7000);
     setTimeout(() => {  dialogue.innerHTML = "Chambers: Wait! I overheard the army, I think I heard him go through some maze of some sort. I'll loop through there ASAP."; 
-
     }, 8000);
+    setTimeout(() => {
+        angel.style.animation = "fly";
+        angel.style.animationDuration = "3s";
+        angel.style.animationFillMode = "forwards";
+    }, 9000);
+    setTimeout(() => {
+        window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/game1/game1.html";
+    }, 12000);
+
 });
 
-setTimeout(() => {
-    window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/game1/game1.html";
-}, 9000);
+
 
 
 
