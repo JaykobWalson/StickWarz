@@ -18,7 +18,7 @@ angel.addEventListener("animationend", function(){
         angel.style.animationFillMode = "forwards";
     }, 9000);
     setTimeout(() => {
-        window.location.href = "file:///C:/Users/bakya/Downloads/cs240/stickWarz/StickWarz/game1/game1.html";
+        window.location.href = "../game1/game1.html";
     }, 12000);
 
 });

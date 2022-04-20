@@ -86,8 +86,7 @@ function moveWithWAndS(e){
         target.style.top = diagonalDist;
 
         if(parseInt(target.style.left) >= 900){
-            console.log("end");
-            text.innerHTML = "end.";
+            window.location.href = "../cutscene2/cutscene2.html"
         }
         // let upOrDown = parseInt(target.style.top) + speed;
         // target.style.top = upOrDown;
@@ -107,8 +106,7 @@ function moveWithWAndS(e){
         target.style.left = diagonalDist;
         target.style.top = diagonalDist;
         if(parseInt(target.style.left) >= 900){
-            console.log("end");
-            text.innerHTML = "end.";
+            window.location.href = "../cutscene2/cutscene2.html"
         }
     }
 }
