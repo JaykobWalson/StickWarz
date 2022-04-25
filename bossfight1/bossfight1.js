@@ -42,6 +42,7 @@ let madBiker = document.getElementById("madBiker");
 madBiker.style.animation = "moving";
 madBiker.style.animationDuration = "3s";
 madBiker.style.animationFillMode = "forwards";
+madBiker.style.animationIterationCount="infinite";
 }, 1000/60);
 }
 madBikerMoving();
