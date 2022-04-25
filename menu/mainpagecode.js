@@ -1,3 +1,11 @@
+let menuTheme = new Audio("menuost.mp3");
+setTimeout(() => {
+menuTheme.play(); 
+}, 1000);
+
+// document.getElementById("background").addEventListener("mouseover", function(){
+// menuTheme.play();
+// });
 let pressPlay = document.getElementById("playButton");
 pressPlay.addEventListener("mouseover", function(){
     pressPlay.style.color = "pink";

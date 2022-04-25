@@ -1,0 +1,40 @@
+#chopperGuy{
+   width: 200px;
+   height: 200px;
+   position: absolute;
+}
+
+#madBiker{
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   top: 600px;
+   left: 550px;
+}
+
+@keyframes moving {
+   33%{
+      top: 600px;
+      left: 450px;
+   }
+   66%{
+      top: 600px;
+      left: 650px;
+   }
+   100%{
+      top: 600px;
+      left: 550px;
+   }
+   
+}
+
+@keyframes fire{
+   10%{
+      top: 650px;
+      left: 500px;
+   }
+   100%{
+      top: 600px;
+      left: 100px;
+   }
+}
