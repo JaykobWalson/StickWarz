@@ -28,3 +28,7 @@ iNeedHelp.addEventListener("mouseover", function(){
 iNeedHelp.addEventListener("mouseout", function(){
     iNeedHelp.style.color = "orange";
 });
+
+iNeedHelp.addEventListener("click", function(){
+    window.location.href = "helpPage1.html";
+});

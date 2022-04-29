@@ -9,7 +9,7 @@ body{
 }
 
 
-.ring1{
+#ring1{
     border: 10px solid black;
     width: 100px;
     height: 100px;
@@ -19,18 +19,16 @@ body{
     top: 120px;
 }
 
-.ring2{
+#ring2{
     border: 10px solid red;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    left: 500px;
-    top: 200px;
    
 }
 
-.ring3{
+#ring3{
     border: 10px solid black;
     width: 100px;
     height: 100px;
@@ -40,7 +38,7 @@ body{
     top: 220px;
 }
 
-.ring4{
+#ring4{
     border: 10px solid black;
     width: 100px;
     height: 100px;
@@ -50,7 +48,7 @@ body{
     top: 90px;
 }
 
-.ring5{
+#ring5{
     border: 10px solid red;
     width: 100px;
     height: 100px;

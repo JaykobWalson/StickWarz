@@ -1,0 +1,45 @@
+body{
+    background-color: darkblue;
+}
+#dialogue{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#chopperGuy{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+#madBiker{
+    position: absolute;
+    left: 300px;
+    top: 320px;
+    transform: scaleX(-1);
+}
+
+.Chambers{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+@keyframes landing{
+    10%{
+        left: 300px;
+        top: 50px;
+    }
+    25%{
+        left: 300px;
+        top: 100px;
+    }
+    75%{
+        left: 400px;
+        top: 200px;
+    }
+    100%{
+        left: 400px;
+        top: 500px;
+    }
+}

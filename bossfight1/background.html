@@ -1,27 +1,28 @@
 <html>
     <div>
-        <img src = "Background.gif" position = "fixed" id = "road" width= 90% length= 90%>
+        <img src = "Background.gif" position = "fixed" id = "road" width= 50% length= 50%>
+ 
         <p id = "objective">Use A to move left and D to move right (or the left and right arrow keys. Use space to shoot
-            Stop the mad biker! Watch out! He has exhaust guns he can shoot at you! Dodge them!
-        </h1>
+            Stop the mad biker! Watch out! He has exhaust guns he can shoot at you! Dodge them!</p>
+
         </div>
         <div>
-            <p id = "madBakerHealth">MadBiker Health: 250</h1>
+            <p id = "madBikerHealth">MadBiker Health:</p>  <p id = "bossHealth">250</p>
         </div>
         <div>
-            <p id = "Your health">Your health: 250</h1>
+            <p id = "YourHealth">Your health:</p> <p id = "playerHealth">250</p> 
         </div>
     <script defer src = "bossfight1.js"></script>
     <link href = "colors.css" rel = "stylesheet">
     <body width>
         <div id = "image1">
-            <img src = "chopperGuyPOV.gif" id = "chopperGuy" style = "top: 700px;
+            <img src = "chopperGuyPOV.gif" id = "chopperGuy" style = "top: 500px;
             left: 500px;">
         </div>
         <div id = "image2">
             <img src = "madBikerFromBehind.gif" id = "madBiker">
         </div>
-        <canvas></canvas>
+        <img src = "projectile.png" class = "ball">
         <div id = "music">
             <audio id = "chaseTheme" src = "chasetheme.mp3" autoplay></audio>
         </div>
