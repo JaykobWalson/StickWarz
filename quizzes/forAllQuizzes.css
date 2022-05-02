@@ -1,0 +1,40 @@
+body{
+    background-color: maroon;
+}
+#dialogue{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    color: red;
+}
+
+#Chances{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: red;
+}
+
+#mainQuestion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+    color: red;
+}
+#q1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: red;
+}
+#q2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: red;
+}
+#q3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: red;
+}
+#q4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: red;
+}

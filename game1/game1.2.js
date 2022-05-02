@@ -10,6 +10,8 @@ var redRing1 = document.getElementById("ring2");
 var redRing2 = document.getElementById("ring5");
 redRing1.style.top = "200px";
 redRing1.style.left = "500px";
+redRing2.style.top = "120px";
+redRing2.style.left = "875px";
 
 function move(e){
     if(e.keyCode == 39 || e.keyCode == 68){
@@ -24,7 +26,15 @@ function move(e){
              
  
         }
-        if(parseInt(target.style.left) >= 900){
+        if(parseInt(target.style.left) >= parseInt(redRing2.style.left) && parseInt(target.style.top) >= parseInt(redRing2.style.top)){
+            ow.play();
+            console.log("...");
+            document.getElementById("angel").style.left = "5px";
+            document.getElementById("angel").style.top = "120px";
+             
+ 
+        }
+        if(parseInt(target.style.left) >= 1500){
             window.location.href = "../cutscene2/cutscene2.html";
         }
         // check(redRing1Width, redRing1Left, redRing1Top, parseInt(target.style.left), parseInt(target.style.top));
@@ -44,7 +54,15 @@ function move(e){
              
  
         }
-        if(parseInt(target.style.left) >= 900){
+        if(parseInt(target.style.left) >= parseInt(redRing2.style.left) && parseInt(target.style.top) >= parseInt(redRing2.style.top)){
+            ow.play();
+            console.log("...");
+            document.getElementById("angel").style.left = "5px";
+            document.getElementById("angel").style.top = "120px";
+             
+ 
+        }
+        if(parseInt(target.style.left) >= 1500){
             window.location.href = "../cutscene2/cutscene2.html";
         }
         // check(redRing1Width, redRing1Left, redRing1Top, parseInt(target.style.left), parseInt(target.style.top));
@@ -62,7 +80,15 @@ function move(e){
              
  
         }
-        if(parseInt(target.style.left) >= 900){
+        if(parseInt(target.style.left) >= parseInt(redRing2.style.left) && parseInt(target.style.top) >= parseInt(redRing2.style.top)){
+            ow.play();
+            console.log("...");
+            document.getElementById("angel").style.left = "5px";
+            document.getElementById("angel").style.top = "120px";
+             
+ 
+        }
+        if(parseInt(target.style.left) >= 1500){
             window.location.href = "../cutscene2/cutscene2.html";
         }
         // check(redRing1Width, redRing1Left, redRing1Top, parseInt(target.style.left), parseInt(target.style.top));
@@ -82,27 +108,17 @@ function move(e){
              
  
         }
-        if(parseInt(target.style.left) >= 900){
+        if(parseInt(target.style.left) >= parseInt(redRing2.style.left) && parseInt(target.style.top) >= parseInt(redRing2.style.top)){
+            ow.play();
+            console.log("...");
+            document.getElementById("angel").style.left = "5px";
+            document.getElementById("angel").style.top = "120px";
+             
+ 
+        }
+        if(parseInt(target.style.left) >= 1500){
             window.location.href = "../cutscene2/cutscene2.html";
         }
-        // check(redRing1Width, redRing1Left, redRing1Top, parseInt(target.style.left), parseInt(target.style.top));
-        // check(redRing2Width, redRing2Left, redRing2Top, parseInt(target.style.left), parseInt(target.style.top));
     }
 
 }
-// function check(ringDiameter, ringX, ringY, angelX, angelY){
-//     const centerX = ringX;
-//     const centerY = ringY;
-//     const radius = ringDiameter/2;
-//     const upperX = centerX + radius;
-//     const lowerX = centerX - radius;
-//     const upperY = centerY + radius;
-//     const lowerY = centerY - radius;
-//     if((angelX <= upperX) && (angelX >= lowerX) && (angelY <= upperY) && (angelY >= lowerY) ){
-//         ow.play();
-//         document.getElementById("angel").style.left = "5px";
-//         document.getElementById("angel").style.top = "120px";
-//     }
-    
-
-// }

@@ -29,6 +29,7 @@ body{
     10%{
         left: 300px;
         top: 50px;
+        display: inline;
     }
     25%{
         left: 300px;

@@ -12,6 +12,7 @@ setTimeout(() =>{
     angel.className = ("Chambers");
     angel.src = "Angel Chambers.gif";
     document.body.appendChild(angel);
+    console.log("bruh");
     angel.style.top = "100px";
     angel.style.left = "150px";
     angel.style.width = "100px";

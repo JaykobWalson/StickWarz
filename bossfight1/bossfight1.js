@@ -8,8 +8,8 @@ window.addEventListener("click", function(){
     musicOff = false;
     }
 });
-var madBikerHealth = document.getElementById("madBikerHealth");
-var playerHealth = document.getElementById("Your health");
+var madBikerHealth = parseInt(document.getElementById("bossHealth").innerHTML);
+var playerHealth = parseInt(document.getElementById("playerHealth").innerHTML);
 document.addEventListener("keydown", move);
 function move(e){
     if(e.keyCode == 39 || e.keyCode == 68){
@@ -33,16 +33,31 @@ function fire(e){
         c.className = "ball";
         c.src = "projectile.png";
         document.body.appendChild(c);
+        let madBiker = document.getElementById("madBiker");
+        let madBikerX = parseInt(madBiker.style.left);
+        madBiker.style.left = madBikerX;
+        // let madBikerY = parseInt(madBiker.style.top);
+        // madBiker.style.top = madBikerY;
+        
         let shift = parseInt(document.getElementById("chopperGuy").style.left) + 100;
         c.style.left = shift;
         c.style.display = "block";
         c.style.animation = "fire";
+        // let positioning = parseInt(document.getElementById("chopperGuy").style.top);
+        // c.style.top = positioning;
         c.style.animationDuration = "1s";
-        console.log("pew");
+        if(parseInt(c.style.left) == parseInt(madBikerX)){
+            let healthMinus = Math.floor(Math.random() * 5) + 1;
+            madBikerHealth.innerHTML = madBikerHealth - healthMinus;
+            console.log (madBikerHealth);
+        }
         setTimeout(()=>{
             c.parentNode.removeChild(c);
         }, 1000);
     }
+}
+if(parseInt(madBikerHealth) == 0){
+    window.location.href = "../cutscene3/cutscene3.html"
 }
 function madBikerMoving(){
 setInterval(()=> {
@@ -54,6 +69,8 @@ madBiker.style.animationIterationCount="infinite";
 }, 1000/60);
 }
 madBikerMoving();
+
+
 
 
 

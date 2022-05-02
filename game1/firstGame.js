@@ -25,7 +25,3 @@ function move(e){
     }, 0600);
 setTimeout(() => {  text.innerHTML = "Instructions: Use A to fly back, and D to go forwards. Fly through the rings (this should be EZ)."; 
 }, 3000);
-
-  
-  
-
